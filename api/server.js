@@ -1,6 +1,6 @@
 // See https://github.com/typicode/json-server#module
-// const jsonServer = require('json-server')
-import jsonServer from "json-server"
+const jsonServer = require('json-server')
+// import jsonServer from "json-server"
 const server = jsonServer.create()
 const router = jsonServer.router('cities.json')
 const middlewares = jsonServer.defaults()
